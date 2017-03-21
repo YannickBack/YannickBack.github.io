@@ -46,15 +46,42 @@ li a:hover {
 }
 
 
-div {
+#one {
 	height: 50px;
 	width: 100px;
 	border: 2px solid black;
 	border-radius: 5px;
-
-	
+	display: inline-block;
+    margin: 50px 160px 10px 140px;
+    padding: 40px 40px 40px 40px
+}	
+#two {
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+    margin: 50px 160px 10px 140px;
+    padding: 40px 40px 40px 40px
 }
-
+#three {
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+    margin: 50px 160px 10px 140px;
+    padding: 40px 40px 40px 40px
+}
+#four {
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+    margin: 50px 160px 10px 140px;
+    padding: 40px 40px 40px 40px
+}
 #one {
 	background-color: #FF0000;
 }
@@ -69,9 +96,4 @@ div {
 
 #four {
 	background-color: #308014;
-}
-div {
-    display: inline-block;
-    margin: 50px 160px 10px 140px;
-    padding: 40px 40px 40px 40px
 }
