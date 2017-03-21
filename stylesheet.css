@@ -1,0 +1,20 @@
+<style>
+body {
+	background-color: blue;
+	font-family: sans-serif;
+}
+#Abbildung 2{
+		background-color: lime;
+}
+h1, h2 {
+	font-family: serif;
+}
+h1 {
+	text-align:center; 
+	font-size:100px;
+}
+h1, h2 {
+	color: green;
+}
+
+</style>
