@@ -1,20 +1,22 @@
-<style>
 body {
-	background-color: blue;
+	background-color: #e5f5f9;
 	font-family: sans-serif;
 }
-#Abbildung 2{
+#Abbildung2 {
 		background-color: lime;
 }
-h1, h2 {
+h2 {
 	font-family: serif;
+	color: green;
+	text-align: center;
 }
 h1 {
 	text-align:center; 
 	font-size:100px;
-}
-h1, h2 {
+	font-family: serif;
 	color: green;
 }
-
-</style>
+p {
+    color: red;
+    text-align: center;
+}
