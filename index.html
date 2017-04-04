@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Aufgabe 1</title>
-<link rel="stylesheet" href="styles.css"></link>
+	<meta charset="UTF-8">
+	<title>Neuseeland Reise - Etappe 1 (Christchurch)</title>
+	
+	<link rel="stylesheet" href="../styles.css" />
+	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	<style> #overviewMap {height: 200px; 
+			width: 200px;
+			float:right;
+			} </style>
 </head>
 <body>
+<h1>Christchurch</h1>
 
-	    <div id="one"></div>
-		<div id="two"></div>
-		<div id="three"></div>
-		<div id="four"></div>
+<div id="overviewMap"></div>
+<script> var overviewMap=L.map('overviewMap').setView([-43.531111,172.636667], 6)
+		var marker=L.marker([-43.531111,172.636667]);
+		marker.addTo(overviewMap);
+	var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
+	osm.addTo(overviewMap);
+	
+	marker.bindPopup("Christchurch");
+		
+</script>
+
+
+<h2>Ōtautahi, von den Bergen bis zum Meer</h2>
+<h3>
+Geographische Breite: 43° 31' 59 S
 <p></p>
-<h1>Aufgabe 1</h1>
-<h2>Yannick Back</h2>
-<p>Matrikelnummer: 1117738</p>
-<p>In dieser Aufgabe sollen wir unsere eigene HTML Page erstellen</p>
-<p>Es ist jedoch schwieriger als gedacht</p>
-<p>Bilder von Innsbruck</p>
-<ul>   
-	<li>Bild 1: Innsbruck von Oben</li>
-    <li>Bild 2: Nordkette Innsbruck</li>
-</ul>
-<p>Landschaftsbild</p>
+Geographische Länge: 172° 37' 59 E
+<p></p>
+Seehöhe: 14m
+</h3>
+<p class="info">Christchurch gilt als die „englischste“ Stadt Neuseelands, was sich heute noch in der Architektur nachvollziehen lässt. Der Māori-Name der Stadt ist Ōtautahi, benannt nach einem Häuptling der Māori, der am Avon River siedelte.</p>
+<p class="info">Von den 341.469 Einwohnern der Stadt waren 2013 27.768 Einwohner Māori-stämmig (8,1 %). Damit lebten 4,6 % der Māori-Bevölkerung des Landes in der Stadt.</p>
+<p class="info">Die durchschnittlichen Tagestemperaturen belaufen sich im Sommer zwischen 16 °C und 22 °C.</p>
+</figure>
+<p></p>
 <figure role="group">
-<img src="https://github.com/YannickBack/yannickback.github.io/blob/master/mountain-landscape-2031539_1920.jpg" alt="Landschaftsbild"/><a href="https://github.com/YannickBack/yannickback.github.io/blob/master/mountain-landscape-2031539_1920.jpg">"https://github.com/YannickBack/yannickback.github.io/blob/master/mountain-landscape-2031539_1920.jpg"</a>
+<img src="neuseeland-christchurch-1513103.jpg" alt="Lage der Stadt Christchurch" /><a href="neuseeland-christchurch-1513103.jpg">"neuseeland-christchurch-1513103.jpg"</a>
 <figcaption>
-Landschaftsbild
+Lage der Stadt Christchurch
 </figcaption>
 </figure>
-<p>Bild 1</p>
+<p></p>
 <figure role="group">
-<img src="http://www.innsbruck.at/splash/images/2016S-header-09.jpg" alt="Innsbruck von Oben" /><a href="http://www.innsbruck.at/splash/images/2016S-header-09.jpg">"http://www.innsbruck.at/splash/images/2016S-header-09.jpg"</a>
+<img src="http://christchurch.jpg" alt="Christchurch" /><a href="http://christchurch.jpg">"http://christchurch.jpg"</a>
 <figcaption>
-Innsbruck von Oben
+Christchurch
 </figcaption>
 </figure>
-<p>Bild 2</p>
-<figure id="Abbildung 2">
-<img src="http://www.medienkolleg.at/wp-content/uploads/2014/12/schule4.jpg" alt="Nordkette Innsbruck" /><a href="http://www.medienkolleg.at/wp-content/uploads/2014/12/schule4.jpg">"http://www.medienkolleg.at/wp-content/uploads/2014/12/schule4.jpg"</a>
-<p>Informationen zu Innsbruck finden Sie auf</p>
-<p><a href="http://www.innsbruck.at/">Innsbruck</a></p>
-</figur
-<div>
-<a><a href="http://www.innsbruck.at/">weitere Informationen zur Stadt <span>Innsbruck</span></a>
-</div>
-<p>
-</p>
-<p>Weitere Informationen zu der Stadt Innsbruck</p>
-<p>
-</p>
-<a href="http://www.innsbruck.at/">Innsbruck</a>
-		<ul>
-			<li>
-				<a href="https://www.innsbruck.gv.at/page.cfm?vpath=index">Stadt</a>
-			</li>
-			<li>
-				<a href="https://www.innsbruck.info/">Tourismus</a>
-			</li>
-			<li>
-				<a href="http://innsbruck.eventsuche.com/">Events</a>
-			</li>
-		</ul>
+<h4 class="links">Quellen</h4>
+    <ul class="links"
+        <a href="neuseeland-christchurch-1513103.jpg">Lage der Stadt Christchurch</a>
+<p></p>
+        <a href="http://christchurch.jpg">Christchurch</a>
+    </ul>
+<p>Navigation zu den anderen Orten</p>
+<nav>
+         <span class="current">Christchurch</span>
+         <p></p>
+         <a class="next" href="../02/index.html">Etappe2</a>
+</nav>
+<p class="author">Yannick Back</p>
 </body>
 </html>
